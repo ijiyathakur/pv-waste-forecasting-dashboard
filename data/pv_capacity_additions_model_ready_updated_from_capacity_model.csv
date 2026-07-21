@@ -1,0 +1,511 @@
+region,fiscal_year_end_year,data_type,series,record_type,capacity_gw
+Gujarat,2014,Historical,Actual,Opening stock,0.92675
+Gujarat,2015,Historical,Actual,Annual addition,0.08494
+Gujarat,2016,Historical,Actual,Annual addition,0.12613
+Gujarat,2017,Historical,Actual,Annual addition,0.14037
+Gujarat,2018,Historical,Actual,Annual addition,0.35674
+Gujarat,2019,Historical,Actual,Annual addition,0.85935
+Gujarat,2020,Historical,Actual,Annual addition,0.45196
+Gujarat,2021,Historical,Actual,Annual addition,1.55554
+Gujarat,2022,Historical,Actual,Annual addition,2.67825
+Gujarat,2023,Historical,Actual,Annual addition,2.07454
+Gujarat,2024,Historical,Actual,Annual addition,4.29031
+Gujarat,2025,Historical,Actual,Annual addition,4.95178
+Gujarat,2026,Historical,Actual,Annual addition,10.80626
+Gujarat,2027,Forecast,Conservative,Annual addition,4.591005184132957
+Gujarat,2027,Forecast,High,Annual addition,9.379307637297284
+Gujarat,2027,Forecast,Medium,Annual addition,8.0109388272767
+Gujarat,2028,Forecast,Conservative,Annual addition,5.947206527779635
+Gujarat,2028,Forecast,High,Annual addition,12.705570189477712
+Gujarat,2028,Forecast,Medium,Annual addition,10.351004625628695
+Gujarat,2029,Forecast,Conservative,Annual addition,4.717755787604759
+Gujarat,2029,Forecast,High,Annual addition,14.321963597284771
+Gujarat,2029,Forecast,Medium,Annual addition,10.440477950345276
+Gujarat,2030,Forecast,Conservative,Annual addition,3.428812081543221
+Gujarat,2030,Forecast,High,Annual addition,14.90984902242036
+Gujarat,2030,Forecast,Medium,Annual addition,9.60684668846661
+Gujarat,2031,Forecast,Conservative,Annual addition,2.33667151139057
+Gujarat,2031,Forecast,High,Annual addition,14.290438085850852
+Gujarat,2031,Forecast,Medium,Annual addition,8.121138039046556
+Gujarat,2032,Forecast,Conservative,Annual addition,1.5233777200237526
+Gujarat,2032,Forecast,High,Annual addition,12.651825701527912
+Gujarat,2032,Forecast,Medium,Annual addition,6.38738761040905
+Gujarat,2033,Forecast,Conservative,Annual addition,0.9646620633379044
+Gujarat,2033,Forecast,High,Annual addition,10.437874717227544
+Gujarat,2033,Forecast,Medium,Annual addition,4.74461865926969
+Gujarat,2034,Forecast,Conservative,Annual addition,0.5996454691119908
+Gujarat,2034,Forecast,High,Annual addition,8.121414548271787
+Gujarat,2034,Forecast,Medium,Annual addition,3.3767761946575234
+Gujarat,2035,Forecast,Conservative,Annual addition,0.3684626873113927
+Gujarat,2035,Forecast,High,Annual addition,6.035738811899037
+Gujarat,2035,Forecast,Medium,Annual addition,2.330777347466864
+Gujarat,2036,Forecast,Conservative,Annual addition,0.2248022915713221
+Gujarat,2036,Forecast,High,Annual addition,4.334487111792782
+Gujarat,2036,Forecast,Medium,Annual addition,1.5749764314954433
+Gujarat,2037,Forecast,Conservative,Annual addition,0.1365585946990961
+Gujarat,2037,Forecast,High,Annual addition,3.0366829541721074
+Gujarat,2037,Forecast,Medium,Annual addition,1.0490402251082855
+Gujarat,2038,Forecast,Conservative,Annual addition,0.0827349337143132
+Gujarat,2038,Forecast,High,Annual addition,2.0907649615841137
+Gujarat,2038,Forecast,Medium,Annual addition,0.6920442171048791
+Gujarat,2039,Forecast,Conservative,Annual addition,0.0500452274010427
+Gujarat,2039,Forecast,High,Annual addition,1.4223110987974792
+Gujarat,2039,Forecast,Medium,Annual addition,0.4536447776189192
+Gujarat,2040,Forecast,Conservative,Annual addition,0.0302423260540933
+Gujarat,2040,Forecast,High,Annual addition,0.9596846998786076
+Gujarat,2040,Forecast,Medium,Annual addition,0.2961331536731819
+Gujarat,2041,Forecast,Conservative,Annual addition,0.0182647244296347
+Gujarat,2041,Forecast,High,Annual addition,0.6439622154174742
+Gujarat,2041,Forecast,Medium,Annual addition,0.1927858368727157
+Gujarat,2042,Forecast,Conservative,Annual addition,0.011026997586903
+Gujarat,2042,Forecast,High,Annual addition,0.4305056475900244
+Gujarat,2042,Forecast,Medium,Annual addition,0.1252831579918734
+Gujarat,2043,Forecast,Conservative,Annual addition,0.006655927582102
+Gujarat,2043,Forecast,High,Annual addition,0.2870900172966912
+Gujarat,2043,Forecast,Medium,Annual addition,0.0813222473422428
+Gujarat,2044,Forecast,Conservative,Annual addition,0.0040170186833421
+Gujarat,2044,Forecast,High,Annual addition,0.1911337276109463
+Gujarat,2044,Forecast,Medium,Annual addition,0.0527473755626601
+Gujarat,2045,Forecast,Conservative,Annual addition,0.0024241823774673
+Gujarat,2045,Forecast,High,Annual addition,0.1271092295657183
+Gujarat,2045,Forecast,Medium,Annual addition,0.0341964783954864
+Gujarat,2046,Forecast,Conservative,Annual addition,0.0014628719573721
+Gujarat,2046,Forecast,High,Annual addition,0.0844691094370375
+Gujarat,2046,Forecast,Medium,Annual addition,0.0221628259385084
+Gujarat,2047,Forecast,Conservative,Annual addition,0.0008827445018155
+Gujarat,2047,Forecast,High,Annual addition,0.0561056732784663
+Gujarat,2047,Forecast,Medium,Annual addition,0.0143608530172087
+Gujarat,2048,Forecast,Conservative,Annual addition,0.0005326676160493
+Gujarat,2048,Forecast,High,Annual addition,0.0372541654196254
+Gujarat,2048,Forecast,Medium,Annual addition,0.0093041755122413
+Gujarat,2049,Forecast,Conservative,Annual addition,0.0003214201370269
+Gujarat,2049,Forecast,High,Annual addition,0.0247314398154117
+Gujarat,2049,Forecast,Medium,Annual addition,0.0060275154592517
+Gujarat,2050,Forecast,Conservative,Annual addition,0.0001939488294766
+Gujarat,2050,Forecast,High,Annual addition,0.0164157939226754
+Gujarat,2050,Forecast,Medium,Annual addition,0.0039045830091453
+India,2014,Historical,Actual,Opening stock,2.82194
+India,2015,Historical,Actual,Annual addition,1.17161
+India,2016,Historical,Actual,Annual addition,3.13036
+India,2017,Historical,Actual,Annual addition,5.67245
+India,2018,Historical,Actual,Annual addition,9.08572
+India,2019,Historical,Actual,Annual addition,7.08991
+India,2020,Historical,Actual,Annual addition,5.52415
+India,2021,Historical,Actual,Annual addition,6.47596
+India,2022,Historical,Actual,Annual addition,13.02874
+India,2023,Historical,Actual,Annual addition,12.77952
+India,2024,Historical,Actual,Annual addition,15.03324
+India,2025,Historical,Actual,Annual addition,23.83289
+India,2026,Historical,Actual,Annual addition,44.61421
+India,2027,Forecast,Conservative,Annual addition,29.38647254378424
+India,2027,Forecast,High,Annual addition,34.23025604739382
+India,2027,Forecast,Medium,Annual addition,32.53101927327941
+India,2028,Forecast,Conservative,Annual addition,43.000944290199726
+India,2028,Forecast,High,Annual addition,50.057617578689104
+India,2028,Forecast,Medium,Annual addition,47.48162880005847
+India,2029,Forecast,Conservative,Annual addition,49.03230968656391
+India,2029,Forecast,High,Annual addition,61.43271357997679
+India,2029,Forecast,Medium,Annual addition,56.74920064391762
+India,2030,Forecast,Conservative,Annual addition,54.09364332885269
+India,2030,Forecast,High,Annual addition,74.16108113294234
+India,2030,Forecast,Medium,Annual addition,66.27154420990246
+India,2031,Forecast,Conservative,Annual addition,57.54610828635896
+India,2031,Forecast,High,Annual addition,87.76710569603682
+India,2031,Forecast,Medium,Annual addition,75.32880608835148
+India,2032,Forecast,Conservative,Annual addition,58.89829460884079
+India,2032,Forecast,High,Annual addition,101.46206381955528
+India,2032,Forecast,Medium,Annual addition,83.0390723749386
+India,2033,Forecast,Conservative,Annual addition,57.94551879177749
+India,2033,Forecast,High,Annual addition,114.1626552143681
+India,2033,Forecast,Medium,Annual addition,88.50166447570774
+India,2034,Forecast,Conservative,Annual addition,54.83271856441706
+India,2034,Forecast,High,Annual addition,124.60745289479564
+India,2034,Forecast,Medium,Annual addition,90.99575994536268
+India,2035,Forecast,Conservative,Annual addition,50.00963441185752
+India,2035,Forecast,High,Annual addition,131.5756876097429
+India,2035,Forecast,Medium,Annual addition,90.16958079960024
+India,2036,Forecast,Conservative,Annual addition,44.10075501186179
+India,2036,Forecast,High,Annual addition,134.16160219777316
+India,2036,Forecast,Medium,Annual addition,86.14122439876121
+India,2037,Forecast,Conservative,Annual addition,37.75017713944328
+India,2037,Forecast,High,Annual addition,132.0105722660794
+India,2037,Forecast,Medium,Annual addition,79.46422583421406
+India,2038,Forecast,Conservative,Annual addition,31.499921924060345
+India,2038,Forecast,High,Annual addition,125.41828247866395
+India,2038,Forecast,Medium,Annual addition,70.97420384957263
+India,2039,Forecast,Conservative,Annual addition,25.729595898477783
+India,2039,Forecast,High,Annual addition,115.2477815829127
+India,2039,Forecast,Medium,Annual addition,61.585060612790926
+India,2040,Forecast,Conservative,Annual addition,20.65248470122367
+India,2040,Forecast,High,Annual addition,102.70233607018054
+India,2040,Forecast,Medium,Annual addition,52.11182383293294
+India,2041,Forecast,Conservative,Annual addition,16.34607938095087
+India,2041,Forecast,High,Annual addition,89.05018424255013
+India,2041,Forecast,Medium,Annual addition,43.16624834379581
+India,2042,Forecast,Conservative,Annual addition,12.794442085318224
+India,2042,Forecast,High,Annual addition,75.39775099769736
+India,2042,Forecast,Medium,Annual addition,35.12965432370584
+India,2043,Forecast,Conservative,Annual addition,9.92753011000866
+India,2043,Forecast,High,Annual addition,62.56320950883287
+India,2043,Forecast,Medium,Annual addition,28.18021477974071
+India,2044,Forecast,Conservative,Annual addition,7.65101559387756
+India,2044,Forecast,High,Annual addition,51.05002302494859
+India,2044,Forecast,Medium,Annual addition,22.34532300194337
+India,2045,Forecast,Conservative,Annual addition,5.865808126191837
+India,2045,Forecast,High,Annual addition,41.0885109179585
+India,2045,Forecast,Medium,Annual addition,17.55647081503139
+India,2046,Forecast,Conservative,Annual addition,4.479153033042621
+India,2046,Forecast,High,Annual addition,32.70751350827027
+India,2046,Forecast,Medium,Annual addition,13.694571236215552
+India,2047,Forecast,Conservative,Annual addition,3.4098407797430355
+India,2047,Forecast,High,Annual addition,25.80783438268054
+India,2047,Forecast,Medium,Annual addition,10.622064153630618
+India,2048,Forecast,Conservative,Annual addition,2.589760234636288
+India,2048,Forecast,High,Annual addition,20.22256276419193
+India,2048,Forecast,Medium,Annual addition,8.202897889330188
+India,2049,Forecast,Conservative,Annual addition,1.9634309232197893
+India,2049,Forecast,High,Annual addition,15.759886710027558
+India,2049,Forecast,Medium,Annual addition,6.313294725711103
+India,2050,Forecast,Conservative,Annual addition,1.4865799012090974
+India,2050,Forecast,High,Annual addition,12.229921174848188
+India,2050,Forecast,Medium,Annual addition,4.84633348940838
+Karnataka,2014,Historical,Actual,Opening stock,0.03686
+Karnataka,2015,Historical,Actual,Annual addition,0.04709
+Karnataka,2016,Historical,Actual,Annual addition,0.07446
+Karnataka,2017,Historical,Actual,Annual addition,0.88877
+Karnataka,2018,Historical,Actual,Annual addition,3.80769
+Karnataka,2019,Historical,Actual,Annual addition,1.28899
+Karnataka,2020,Historical,Actual,Annual addition,0.95582
+Karnataka,2021,Historical,Actual,Annual addition,0.31666
+Karnataka,2022,Historical,Actual,Annual addition,0.17447
+Karnataka,2023,Historical,Actual,Annual addition,0.6506
+Karnataka,2024,Historical,Actual,Annual addition,0.30327
+Karnataka,2025,Historical,Actual,Annual addition,1.13498
+Karnataka,2026,Historical,Actual,Annual addition,1.42198
+Karnataka,2027,Forecast,Conservative,Annual addition,0.5030443635444151
+Karnataka,2027,Forecast,High,Annual addition,0.856374918099668
+Karnataka,2027,Forecast,Medium,Annual addition,0.7463353210602026
+Karnataka,2028,Forecast,Conservative,Annual addition,0.7301634868403148
+Karnataka,2028,Forecast,High,Annual addition,0.8578087971347745
+Karnataka,2028,Forecast,Medium,Annual addition,0.8181785459621214
+Karnataka,2029,Forecast,Conservative,Annual addition,0.7086948518407379
+Karnataka,2029,Forecast,High,Annual addition,0.84937729307644
+Karnataka,2029,Forecast,Medium,Annual addition,0.805851183422515
+Karnataka,2030,Forecast,Conservative,Annual addition,0.687629897960127
+Karnataka,2030,Forecast,High,Annual addition,0.841028648868873
+Karnataka,2030,Forecast,Medium,Annual addition,0.793709535901753
+Karnataka,2031,Forecast,Conservative,Annual addition,0.6669769145386866
+Karnataka,2031,Forecast,High,Annual addition,0.8327620504960702
+Karnataka,2031,Forecast,Medium,Annual addition,0.7817508061317167
+Karnataka,2032,Forecast,Conservative,Annual addition,0.6467428223809524
+Karnataka,2032,Forecast,High,Annual addition,0.8245766919332862
+Karnataka,2032,Forecast,Medium,Annual addition,0.7699722389599071
+Karnataka,2033,Forecast,Conservative,Annual addition,0.6269332434768717
+Karnataka,2033,Forecast,High,Annual addition,0.8164717750689583
+Karnataka,2033,Forecast,Medium,Annual addition,0.7583711207158021
+Karnataka,2034,Forecast,Conservative,Annual addition,0.6075525710896166
+Karnataka,2034,Forecast,High,Annual addition,0.8084465096268829
+Karnataka,2034,Forecast,Medium,Annual addition,0.7469447785868653
+Karnataka,2035,Forecast,Conservative,Annual addition,0.5886040397658725
+Karnataka,2035,Forecast,High,Annual addition,0.8005001130895799
+Karnataka,2035,Forecast,Medium,Annual addition,0.7356905800037765
+Karnataka,2036,Forecast,Conservative,Annual addition,0.57008979486924
+Karnataka,2036,Forecast,High,Annual addition,0.7926318106220727
+Karnataka,2036,Forecast,Medium,Annual addition,0.724605932035093
+Karnataka,2037,Forecast,Conservative,Annual addition,0.5520109612805371
+Karnataka,2037,Forecast,High,Annual addition,0.7848408349967109
+Karnataka,2037,Forecast,Medium,Annual addition,0.7136882807907661
+Karnataka,2038,Forecast,Conservative,Annual addition,0.5343677109511411
+Karnataka,2038,Forecast,High,Annual addition,0.7771264265184143
+Karnataka,2038,Forecast,Medium,Annual addition,0.7029351108348649
+Karnataka,2039,Forecast,Conservative,Annual addition,0.5171593290350387
+Karnataka,2039,Forecast,High,Annual addition,0.7694878329509827
+Karnataka,2039,Forecast,Medium,Annual addition,0.6923439446068862
+Karnataka,2040,Forecast,Conservative,Annual addition,0.5003842783639101
+Karnataka,2040,Forecast,High,Annual addition,0.7619243094438666
+Karnataka,2040,Forecast,Medium,Annual addition,0.6819123418519908
+Karnataka,2041,Forecast,Conservative,Annual addition,0.4840402620644113
+Karnataka,2041,Forecast,High,Annual addition,0.7544351184596749
+Karnataka,2041,Forecast,Medium,Annual addition,0.6716378990595935
+Karnataka,2042,Forecast,Conservative,Annual addition,0.4681242841515001
+Karnataka,2042,Forecast,High,Annual addition,0.747019529702662
+Karnataka,2042,Forecast,Medium,Annual addition,0.6615182489105145
+Karnataka,2043,Forecast,Conservative,Annual addition,0.4526327079615058
+Karnataka,2043,Forecast,High,Annual addition,0.7396768200475101
+Karnataka,2043,Forecast,Medium,Annual addition,0.6515510597323839
+Karnataka,2044,Forecast,Conservative,Annual addition,0.4375613123182376
+Karnataka,2044,Forecast,High,Annual addition,0.7324062734691061
+Karnataka,2044,Forecast,Medium,Annual addition,0.6417340349632816
+Karnataka,2045,Forecast,Conservative,Annual addition,0.4229053453513813
+Karnataka,2045,Forecast,High,Annual addition,0.7252071809729408
+Karnataka,2045,Forecast,Medium,Annual addition,0.6320649126233704
+Karnataka,2046,Forecast,Conservative,Annual addition,0.4086595759101215
+Karnataka,2046,Forecast,High,Annual addition,0.7180788405260969
+Karnataka,2046,Forecast,Medium,Annual addition,0.6225414647945051
+Karnataka,2047,Forecast,Conservative,Annual addition,0.394818342537139
+Karnataka,2047,Forecast,High,Annual addition,0.7110205569889949
+Karnataka,2047,Forecast,Medium,Annual addition,0.6131614971076615
+Karnataka,2048,Forecast,Conservative,Annual addition,0.3813755999868711
+Karnataka,2048,Forecast,High,Annual addition,0.7040316420477772
+Karnataka,2048,Forecast,Medium,Annual addition,0.6039228482380885
+Karnataka,2049,Forecast,Conservative,Annual addition,0.3683249632898402
+Karnataka,2049,Forecast,High,Annual addition,0.697111414147443
+Karnataka,2049,Forecast,Medium,Annual addition,0.5948233894079564
+Karnataka,2050,Forecast,Conservative,Annual addition,0.3556597493795443
+Karnataka,2050,Forecast,High,Annual addition,0.6902591984253874
+Karnataka,2050,Forecast,Medium,Annual addition,0.5858610238966371
+Maharashtra,2014,Historical,Actual,Opening stock,0.25132
+Maharashtra,2015,Historical,Actual,Annual addition,0.11245
+Maharashtra,2016,Historical,Actual,Annual addition,0.02711
+Maharashtra,2017,Historical,Actual,Annual addition,0.09351
+Maharashtra,2018,Historical,Actual,Annual addition,0.67406
+Maharashtra,2019,Historical,Actual,Annual addition,0.52339
+Maharashtra,2020,Historical,Actual,Annual addition,0.17252
+Maharashtra,2021,Historical,Actual,Annual addition,0.49725
+Maharashtra,2022,Historical,Actual,Annual addition,0.27941
+Maharashtra,2023,Historical,Actual,Annual addition,2.09188
+Maharashtra,2024,Historical,Actual,Annual addition,1.52677
+Maharashtra,2025,Historical,Actual,Annual addition,4.4376
+Maharashtra,2026,Historical,Actual,Annual addition,8.9349
+Maharashtra,2027,Forecast,Conservative,Annual addition,8.582316775360358
+Maharashtra,2027,Forecast,High,Annual addition,10.395322516182675
+Maharashtra,2027,Forecast,Medium,Annual addition,9.941673413556416
+Maharashtra,2028,Forecast,Conservative,Annual addition,11.594446124947762
+Maharashtra,2028,Forecast,High,Annual addition,16.46698660605038
+Maharashtra,2028,Forecast,Medium,Annual addition,15.107490386160478
+Maharashtra,2029,Forecast,Conservative,Annual addition,12.350632850729092
+Maharashtra,2029,Forecast,High,Annual addition,22.89496943760629
+Maharashtra,2029,Forecast,Medium,Annual addition,19.540574898637075
+Maharashtra,2030,Forecast,Conservative,Annual addition,11.353163251384338
+Maharashtra,2030,Forecast,High,Annual addition,29.21004616240019
+Maharashtra,2030,Forecast,Medium,Annual addition,22.618977923465565
+Maharashtra,2031,Forecast,Conservative,Annual addition,9.106817186982838
+Maharashtra,2031,Forecast,High,Annual addition,33.43748363048984
+Maharashtra,2031,Forecast,Medium,Annual addition,23.049929254346083
+Maharashtra,2032,Forecast,Conservative,Annual addition,6.539205876692748
+Maharashtra,2032,Forecast,High,Annual addition,33.84019850901359
+Maharashtra,2032,Forecast,Medium,Annual addition,20.631859839883376
+Maharashtra,2033,Forecast,Conservative,Annual addition,4.331325706192089
+Maharashtra,2033,Forecast,High,Annual addition,30.23600114710402
+Maharashtra,2033,Forecast,Medium,Annual addition,16.430732968558516
+Maharashtra,2034,Forecast,Conservative,Annual addition,2.717558085301448
+Maharashtra,2034,Forecast,High,Annual addition,24.152401668643307
+Maharashtra,2034,Forecast,Medium,Annual addition,11.909387671359354
+Maharashtra,2035,Forecast,Conservative,Annual addition,1.6474806537673174
+Maharashtra,2035,Forecast,High,Annual addition,17.62390675082645
+Maharashtra,2035,Forecast,Medium,Annual addition,8.055793684619829
+Maharashtra,2036,Forecast,Conservative,Annual addition,0.9780428787047272
+Maharashtra,2036,Forecast,High,Annual addition,12.028890873780796
+Maharashtra,2036,Forecast,Medium,Annual addition,5.197568306284438
+Maharashtra,2037,Forecast,Conservative,Annual addition,0.5734134180700181
+Maharashtra,2037,Forecast,High,Annual addition,7.840334641426381
+Maharashtra,2037,Forecast,Medium,Annual addition,3.2519029546777176
+Maharashtra,2038,Forecast,Conservative,Annual addition,0.3337240063914066
+Maharashtra,2038,Forecast,High,Annual addition,4.957859612183313
+Maharashtra,2038,Forecast,Medium,Annual addition,1.995591418073161
+Maharashtra,2039,Forecast,Conservative,Annual addition,0.1933959709196671
+Maharashtra,2039,Forecast,High,Annual addition,3.0753364769361724
+Maharashtra,2039,Forecast,Medium,Annual addition,1.2101231723893306
+Maharashtra,2040,Forecast,Conservative,Annual addition,0.1117966415238669
+Maharashtra,2040,Forecast,High,Annual addition,1.8848886858778544
+Maharashtra,2040,Forecast,Medium,Annual addition,0.7285198542761577
+Maharashtra,2041,Forecast,Conservative,Annual addition,0.0645336509651315
+Maharashtra,2041,Forecast,High,Annual addition,1.1467823474179113
+Maharashtra,2041,Forecast,Medium,Annual addition,0.4366730986510845
+Maharashtra,2042,Forecast,Conservative,Annual addition,0.0372206102621675
+Maharashtra,2042,Forecast,High,Annual addition,0.6945890506883075
+Maharashtra,2042,Forecast,Medium,Annual addition,0.2610559346863965
+Maharashtra,2043,Forecast,Conservative,Annual addition,0.0214571947118002
+Maharashtra,2043,Forecast,High,Annual addition,0.4195596667628365
+Maharashtra,2043,Forecast,Medium,Annual addition,0.1558224639131253
+Maharashtra,2044,Forecast,Conservative,Annual addition,0.0123663800204525
+Maharashtra,2044,Forecast,High,Annual addition,0.2530146647849278
+Maharashtra,2044,Forecast,Medium,Annual addition,0.0929223465969641
+Maharashtra,2045,Forecast,Conservative,Annual addition,0.0071259567551607
+Maharashtra,2045,Forecast,High,Annual addition,0.1524288022878295
+Maharashtra,2045,Forecast,Medium,Annual addition,0.0553819032566593
+Maharashtra,2046,Forecast,Conservative,Annual addition,0.0041058585643583
+Maharashtra,2046,Forecast,High,Annual addition,0.0917759530647117
+Maharashtra,2046,Forecast,Medium,Annual addition,0.0329967450684876
+Maharashtra,2047,Forecast,Conservative,Annual addition,0.0023656029871403
+Maharashtra,2047,Forecast,High,Annual addition,0.0552375645102642
+Maharashtra,2047,Forecast,Medium,Annual addition,0.0196556874092266
+Maharashtra,2048,Forecast,Conservative,Annual addition,0.0013629079499111
+Maharashtra,2048,Forecast,High,Annual addition,0.0332388578573841
+Maharashtra,2048,Forecast,Medium,Annual addition,0.011707228309632
+Maharashtra,2049,Forecast,Conservative,Annual addition,0.0007852059446094
+Maharashtra,2049,Forecast,High,Annual addition,0.0199986678550203
+Maharashtra,2049,Forecast,Medium,Annual addition,0.0069725139607044
+Maharashtra,2050,Forecast,Conservative,Annual addition,0.0004523725542782
+Maharashtra,2050,Forecast,High,Annual addition,0.0120315613665411
+Maharashtra,2050,Forecast,Medium,Annual addition,0.0041524700067725
+Rajasthan,2014,Historical,Actual,Opening stock,0.75625
+Rajasthan,2015,Historical,Actual,Annual addition,0.24398
+Rajasthan,2016,Historical,Actual,Annual addition,0.34586
+Rajasthan,2017,Historical,Actual,Annual addition,0.5619
+Rajasthan,2018,Historical,Actual,Annual addition,0.3882
+Rajasthan,2019,Historical,Actual,Annual addition,1.04475
+Rajasthan,2020,Historical,Actual,Annual addition,1.66843
+Rajasthan,2021,Historical,Actual,Annual addition,0.83736
+Rajasthan,2022,Historical,Actual,Annual addition,6.71814
+Rajasthan,2023,Historical,Actual,Annual addition,4.49083
+Rajasthan,2024,Historical,Actual,Annual addition,4.29188
+Rajasthan,2025,Historical,Actual,Annual addition,6.93889
+Rajasthan,2026,Historical,Actual,Annual addition,12.72615
+Rajasthan,2027,Forecast,Conservative,Annual addition,11.966713724845754
+Rajasthan,2027,Forecast,High,Annual addition,13.560576333148624
+Rajasthan,2027,Forecast,Medium,Annual addition,13.007006427798167
+Rajasthan,2028,Forecast,Conservative,Annual addition,15.122402275396183
+Rajasthan,2028,Forecast,High,Annual addition,18.176718800537927
+Rajasthan,2028,Forecast,Medium,Annual addition,17.061836092127137
+Rajasthan,2029,Forecast,Conservative,Annual addition,17.008903877710793
+Rajasthan,2029,Forecast,High,Annual addition,22.83380280263728
+Rajasthan,2029,Forecast,Medium,Annual addition,20.59812066065703
+Rajasthan,2030,Forecast,Conservative,Annual addition,18.071041555037908
+Rajasthan,2030,Forecast,High,Annual addition,27.839159089454284
+Rajasthan,2030,Forecast,Medium,Annual addition,23.86042249538727
+Rajasthan,2031,Forecast,Conservative,Annual addition,18.07347681627188
+Rajasthan,2031,Forecast,High,Annual addition,32.73059048871016
+Rajasthan,2031,Forecast,Medium,Annual addition,26.3512431506324
+Rajasthan,2032,Forecast,Conservative,Annual addition,17.015646701866288
+Rajasthan,2032,Forecast,High,Annual addition,36.877126586290615
+Rajasthan,2032,Forecast,Medium,Annual addition,27.61141765914093
+Rajasthan,2033,Forecast,Conservative,Annual addition,15.132023041428395
+Rajasthan,2033,Forecast,High,Annual addition,39.60755451448247
+Rajasthan,2033,Forecast,Medium,Annual addition,27.38283414598513
+Rajasthan,2034,Forecast,Conservative,Annual addition,12.789677052430475
+Rajasthan,2034,Forecast,High,Annual addition,40.41259960763088
+Rajasthan,2034,Forecast,Medium,Annual addition,25.713590254624933
+Rajasthan,2035,Forecast,Conservative,Annual addition,10.353385081826076
+Rajasthan,2035,Forecast,High,Annual addition,39.13200506095444
+Rajasthan,2035,Forecast,Medium,Annual addition,22.93772245641901
+Rajasthan,2036,Forecast,Conservative,Annual addition,8.092324564108452
+Rajasthan,2036,Forecast,High,Annual addition,36.01853809936853
+Rajasthan,2036,Forecast,Medium,Annual addition,19.543113040432047
+Rajasthan,2037,Forecast,Conservative,Annual addition,6.153377018739803
+Rajasthan,2037,Forecast,High,Annual addition,31.63810826743469
+Rajasthan,2037,Forecast,Medium,Annual addition,16.009859738449393
+Rajasthan,2038,Forecast,Conservative,Annual addition,4.58180577519974
+Rajasthan,2038,Forecast,High,Annual addition,26.66890662732908
+Rajasthan,2038,Forecast,Medium,Annual addition,12.698866145478917
+Rajasthan,2039,Forecast,Conservative,Annual addition,3.3585599732602134
+Rajasthan,2039,Forecast,High,Annual addition,21.71059341678449
+Rajasthan,2039,Forecast,Medium,Annual addition,9.81720477768937
+Rajasthan,2040,Forecast,Conservative,Annual addition,2.43371466916696
+Rajasthan,2040,Forecast,High,Annual addition,17.178412378226028
+Rajasthan,2040,Forecast,Medium,Annual addition,7.43982022542184
+Rajasthan,2041,Forecast,Conservative,Annual addition,1.7488695381872503
+Rajasthan,2041,Forecast,High,Annual addition,13.288915014283075
+Rajasthan,2041,Forecast,Medium,Annual addition,5.553506579554892
+Rajasthan,2042,Forecast,Conservative,Annual addition,1.2492071087482088
+Rajasthan,2042,Forecast,High,Annual addition,10.101639733705554
+Rajasthan,2042,Forecast,Medium,Annual addition,4.098818882587636
+Rajasthan,2043,Forecast,Conservative,Annual addition,0.8884746868401976
+Rajasthan,2043,Forecast,High,Annual addition,7.577078613191304
+Rajasthan,2043,Forecast,Medium,Annual addition,2.9999803586555345
+Rajasthan,2044,Forecast,Conservative,Annual addition,0.6299809124661806
+Rajasthan,2044,Forecast,High,Annual addition,5.626776604241968
+Rajasthan,2044,Forecast,Medium,Annual addition,2.182312745136244
+Rajasthan,2045,Forecast,Conservative,Annual addition,0.4457254947031401
+Rajasthan,2045,Forecast,High,Annual addition,4.147453702463338
+Rajasthan,2045,Forecast,Medium,Annual addition,1.5804405027772075
+Rajasthan,2046,Forecast,Conservative,Annual addition,0.3148768177279635
+Rajasthan,2046,Forecast,High,Annual addition,3.040295885010778
+Rajasthan,2046,Forecast,Medium,Annual addition,1.1408679124111814
+Rajasthan,2047,Forecast,Conservative,Annual addition,0.2221993019233821
+Rajasthan,2047,Forecast,High,Annual addition,2.219722393025961
+Rajasthan,2047,Forecast,Medium,Annual addition,0.8216344893221503
+Rajasthan,2048,Forecast,Conservative,Annual addition,0.1566794798547448
+Rajasthan,2048,Forecast,High,Annual addition,1.615853609726969
+Rajasthan,2048,Forecast,Medium,Annual addition,0.5907333781663056
+Rajasthan,2049,Forecast,Conservative,Annual addition,0.1104198160097951
+Rajasthan,2049,Forecast,High,Annual addition,1.1737445826139492
+Rajasthan,2049,Forecast,Medium,Annual addition,0.4242082048931479
+Rajasthan,2050,Forecast,Conservative,Annual addition,0.0777887185212193
+Rajasthan,2050,Forecast,High,Annual addition,0.8512716403995455
+Rajasthan,2050,Forecast,Medium,Annual addition,0.3043612343274162
+Tamil Nadu,2014,Historical,Actual,Opening stock,0.1085
+Tamil Nadu,2015,Historical,Actual,Annual addition,0.04833
+Tamil Nadu,2016,Historical,Actual,Annual addition,0.93374
+Tamil Nadu,2017,Historical,Actual,Annual addition,0.63795
+Tamil Nadu,2018,Historical,Actual,Annual addition,0.22234
+Tamil Nadu,2019,Historical,Actual,Annual addition,0.66785
+Tamil Nadu,2020,Historical,Actual,Annual addition,1.34285
+Tamil Nadu,2021,Historical,Actual,Annual addition,0.56591
+Tamil Nadu,2022,Historical,Actual,Annual addition,0.53971
+Tamil Nadu,2023,Historical,Actual,Annual addition,1.66925
+Tamil Nadu,2024,Historical,Actual,Annual addition,1.47495
+Tamil Nadu,2025,Historical,Actual,Annual addition,1.9422
+Tamil Nadu,2026,Historical,Actual,Annual addition,3.42609
+Tamil Nadu,2027,Forecast,Conservative,Annual addition,0.4573246917241356
+Tamil Nadu,2027,Forecast,High,Annual addition,2.541932499054649
+Tamil Nadu,2027,Forecast,Medium,Annual addition,2.0790212440464675
+Tamil Nadu,2028,Forecast,Conservative,Annual addition,1.4485521651437612
+Tamil Nadu,2028,Forecast,High,Annual addition,3.348464582313092
+Tamil Nadu,2028,Forecast,Medium,Annual addition,2.812770475337542
+Tamil Nadu,2029,Forecast,Conservative,Annual addition,1.2150598402391726
+Tamil Nadu,2029,Forecast,High,Annual addition,3.6902824571995367
+Tamil Nadu,2029,Forecast,Medium,Annual addition,2.893904371259083
+Tamil Nadu,2030,Forecast,Conservative,Annual addition,0.9779659458931284
+Tamil Nadu,2030,Forecast,High,Annual addition,3.940507775829055
+Tamil Nadu,2030,Forecast,Medium,Annual addition,2.862108260822268
+Tamil Nadu,2031,Forecast,Conservative,Annual addition,0.7612981458526811
+Tamil Nadu,2031,Forecast,High,Annual addition,4.068258713262434
+Tamil Nadu,2031,Forecast,Medium,Annual addition,2.7222293789405434
+Tamil Nadu,2032,Forecast,Conservative,Annual addition,0.5773786108492942
+Tamil Nadu,2032,Forecast,High,Annual addition,4.056601850763975
+Tamil Nadu,2032,Forecast,Medium,Annual addition,2.494674985616683
+Tamil Nadu,2033,Forecast,Conservative,Annual addition,0.4292897858779803
+Tamil Nadu,2033,Forecast,High,Annual addition,3.907114911422376
+Tamil Nadu,2033,Forecast,Medium,Annual addition,2.209433868037248
+Tamil Nadu,2034,Forecast,Conservative,Annual addition,0.3144980849240042
+Tamil Nadu,2034,Forecast,High,Annual addition,3.63945002197449
+Tamil Nadu,2034,Forecast,Medium,Annual addition,1.8984326870218384
+Tamil Nadu,2035,Forecast,Conservative,Annual addition,0.2279140545469964
+Tamil Nadu,2035,Forecast,High,Annual addition,3.286094953799612
+Tamil Nadu,2035,Forecast,Medium,Annual addition,1.5892200899665525
+Tamil Nadu,2036,Forecast,Conservative,Annual addition,0.1638712117445777
+Tamil Nadu,2036,Forecast,High,Annual addition,2.884596237151527
+Tamil Nadu,2036,Forecast,Medium,Annual addition,1.301583905871702
+Tamil Nadu,2037,Forecast,Conservative,Annual addition,0.1171578512297699
+Tamil Nadu,2037,Forecast,High,Annual addition,2.4701742605276635
+Tamil Nadu,2037,Forecast,Medium,Annual addition,1.0470412575764882
+Tamil Nadu,2038,Forecast,Conservative,Annual addition,0.0834214894362546
+Tamil Nadu,2038,Forecast,High,Annual addition,2.0707977107515987
+Tamil Nadu,2038,Forecast,Medium,Annual addition,0.8301807614889611
+Tamil Nadu,2039,Forecast,Conservative,Annual addition,0.0592282624723878
+Tamil Nadu,2039,Forecast,High,Annual addition,1.705276274772487
+Tamil Nadu,2039,Forecast,Medium,Annual addition,0.6507176788382196
+Tamil Nadu,2040,Forecast,Conservative,Annual addition,0.0419651025906304
+Tamil Nadu,2040,Forecast,High,Annual addition,1.3837489198106852
+Tamil Nadu,2040,Forecast,Medium,Annual addition,0.5054721676693958
+Tamil Nadu,2041,Forecast,Conservative,Annual addition,0.0296903665744281
+Tamil Nadu,2041,Forecast,High,Annual addition,1.1094910666923354
+Tamil Nadu,2041,Forecast,Medium,Annual addition,0.3899037942317989
+Tamil Nadu,2042,Forecast,Conservative,Annual addition,0.0209843526235999
+Tamil Nadu,2042,Forecast,High,Annual addition,0.8810878561419813
+Tamil Nadu,2042,Forecast,Medium,Annual addition,0.299135137234245
+Tamil Nadu,2043,Forecast,Conservative,Annual addition,0.0148203833088871
+Tamil Nadu,2043,Forecast,High,Annual addition,0.6943827457497918
+Tamil Nadu,2043,Forecast,Medium,Annual addition,0.2285457493500828
+Tamil Nadu,2044,Forecast,Conservative,Annual addition,0.0104616451623194
+Tamil Nadu,2044,Forecast,High,Annual addition,0.543955561924264
+Tamil Nadu,2044,Forecast,Medium,Annual addition,0.1740602915369109
+Tamil Nadu,2045,Forecast,Conservative,Annual addition,0.0073821503906685
+Tamil Nadu,2045,Forecast,High,Annual addition,0.4241094278295563
+Tamil Nadu,2045,Forecast,Medium,Annual addition,0.1322438546247255
+Tamil Nadu,2046,Forecast,Conservative,Annual addition,0.0052078029578801
+Tamil Nadu,2046,Forecast,High,Annual addition,0.3294528490581285
+Tamil Nadu,2046,Forecast,Medium,Annual addition,0.1002888686745535
+Tamil Nadu,2047,Forecast,Conservative,Annual addition,0.0036732265599326
+Tamil Nadu,2047,Forecast,High,Annual addition,0.255191291598372
+Tamil Nadu,2047,Forecast,Medium,Annual addition,0.0759493797998231
+Tamil Nadu,2048,Forecast,Conservative,Annual addition,0.0025905115295969
+Tamil Nadu,2048,Forecast,High,Annual addition,0.1972311433429467
+Tamil Nadu,2048,Forecast,Medium,Annual addition,0.0574562038044703
+Tamil Nadu,2049,Forecast,Conservative,Annual addition,0.0018267718114159
+Tamil Nadu,2049,Forecast,High,Annual addition,0.152174090347529
+Tamil Nadu,2049,Forecast,Medium,Annual addition,0.0434312663608125
+Tamil Nadu,2050,Forecast,Conservative,Annual addition,0.0012881176814865
+Tamil Nadu,2050,Forecast,High,Annual addition,0.1172550253662692
+Tamil Nadu,2050,Forecast,Medium,Annual addition,0.0328099549017082

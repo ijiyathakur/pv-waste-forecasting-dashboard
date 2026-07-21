@@ -1,0 +1,11 @@
+material,iea_reported_range,selected_raw_midpoint_percent,normalized_weight_percent_used,normalized_mass_fraction_used,source_url
+Glass,68-72%,70.0,70.79288025889969,0.7079288025889968,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Aluminium,12-14%,13.0,13.147249190938512,0.13147249190938512,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Polymers,8-10%,9.0,9.101941747572816,0.09101941747572816,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Silicon,3-4%,3.5,3.5396440129449838,0.03539644012944984,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Copper,2-4%,3.0,3.033980582524272,0.03033980582524272,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Silver,0.03-0.08%,0.055,0.05562297734627832,0.0005562297734627832,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Zinc,0.03-0.10%,0.065,0.06573624595469256,0.0006573624595469256,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Lead,0.01-0.05%,0.03,0.03033980582524272,0.0003033980582524272,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Tin,0.01-0.05%,0.03,0.03033980582524272,0.0003033980582524272,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf
+Other,<0.20%,0.2,0.2022653721682848,0.002022653721682848,https://iea.blob.core.windows.net/assets/2d18437f-211d-4504-beeb-570c4d139e25/SpecialReportonSolarPVGlobalSupplyChains.pdf

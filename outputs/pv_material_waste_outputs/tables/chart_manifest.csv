@@ -1,0 +1,15 @@
+chart_type,region,year,metric,png_file
+region_detail,Gujarat,2045,annual,charts\material_bars\annual\Gujarat_2045_annual_material_bars.png
+region_detail,India,2045,annual,charts\material_bars\annual\India_2045_annual_material_bars.png
+region_detail,Karnataka,2045,annual,charts\material_bars\annual\Karnataka_2045_annual_material_bars.png
+region_detail,Maharashtra,2045,annual,charts\material_bars\annual\Maharashtra_2045_annual_material_bars.png
+region_detail,Rajasthan,2045,annual,charts\material_bars\annual\Rajasthan_2045_annual_material_bars.png
+region_detail,Tamil Nadu,2045,annual,charts\material_bars\annual\Tamil_Nadu_2045_annual_material_bars.png
+region_comparison,ALL,2045,annual,charts\region_comparison\2045_annual_region_comparison.png
+region_detail,Gujarat,2045,cumulative,charts\material_bars\cumulative\Gujarat_2045_cumulative_material_bars.png
+region_detail,India,2045,cumulative,charts\material_bars\cumulative\India_2045_cumulative_material_bars.png
+region_detail,Karnataka,2045,cumulative,charts\material_bars\cumulative\Karnataka_2045_cumulative_material_bars.png
+region_detail,Maharashtra,2045,cumulative,charts\material_bars\cumulative\Maharashtra_2045_cumulative_material_bars.png
+region_detail,Rajasthan,2045,cumulative,charts\material_bars\cumulative\Rajasthan_2045_cumulative_material_bars.png
+region_detail,Tamil Nadu,2045,cumulative,charts\material_bars\cumulative\Tamil_Nadu_2045_cumulative_material_bars.png
+region_comparison,ALL,2045,cumulative,charts\region_comparison\2045_cumulative_region_comparison.png
