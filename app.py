@@ -73,11 +73,14 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Solar PV Capacity, Waste and Material Forecasting Dashboard")
+st.title(
+    "Solar PV Capacity, Waste, Material and Economic Valuation Dashboard"
+)
 
 st.write(
     "This dashboard presents projected solar PV capacity, "
-    "end-of-life waste and material quantities for India "
+    "end-of-life waste, material quantities, commodity-price pathways, "
+    "economic valuation and sensitivity analysis for India "
     "and selected states."
 )
 
