@@ -1381,6 +1381,136 @@ else:
                 use_container_width=True,
                 hide_index=True,
             )
+            
+            # ------------------------------------------------
+            # REGION-WISE ECONOMIC COMPARISON
+            # ------------------------------------------------
+
+            st.subheader(
+                f"Regional Economic Comparison in "
+                f"{selected_economic_year}"
+            )
+
+            regional_comparison_df = valuation_df[
+                (
+                    valuation_df[
+                        "capacity_scenario"
+                    ].astype(str)
+                    == selected_capacity_scenario
+                )
+                & (
+                    valuation_df[
+                        "lifetime_scenario"
+                    ].astype(str)
+                    == selected_lifetime_scenario
+                )
+                & (
+                    valuation_df[
+                        "price_scenario"
+                    ].astype(str)
+                    == selected_price_scenario
+                )
+                & (
+                    pd.to_numeric(
+                        valuation_df["year"],
+                        errors="coerce",
+                    )
+                    == selected_economic_year
+                )
+            ].copy()
+
+            regional_comparison_df = (
+                regional_comparison_df.groupby(
+                    "region",
+                    as_index=False,
+                )[
+                    [
+                        "quality_adjusted_gross_value_real_2026_usd",
+                        selected_pv_column,
+                    ]
+                ]
+                .sum()
+            )
+
+            regional_comparison_df[
+                "quality_adjusted_value_million_usd"
+            ] = (
+                regional_comparison_df[
+                    "quality_adjusted_gross_value_real_2026_usd"
+                ]
+                / 1_000_000
+            )
+
+            regional_comparison_df[
+                "present_value_million_usd"
+            ] = (
+                regional_comparison_df[
+                    selected_pv_column
+                ]
+                / 1_000_000
+            )
+
+            regional_comparison_df = (
+                regional_comparison_df.sort_values(
+                    "quality_adjusted_value_million_usd",
+                    ascending=False,
+                )
+            )
+
+            regional_chart_df = (
+                regional_comparison_df[
+                    [
+                        "region",
+                        "quality_adjusted_value_million_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "region": "Region",
+                        "quality_adjusted_value_million_usd":
+                        "Quality-adjusted annual value",
+                    }
+                )
+                .set_index("Region")
+            )
+
+            st.bar_chart(
+                regional_chart_df
+            )
+
+            st.caption(
+                "Values represent annual material-value potential in "
+                "million constant 2026 USD. India and individual-state "
+                "results may overlap and should not be added together."
+            )
+
+            regional_table = (
+                regional_comparison_df[
+                    [
+                        "region",
+                        "quality_adjusted_value_million_usd",
+                        "present_value_million_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "region": "Region",
+                        "quality_adjusted_value_million_usd":
+                        "Quality-adjusted annual value "
+                        "(million USD)",
+                        "present_value_million_usd":
+                        f"Present value at "
+                        f"{selected_discount_rate} "
+                        "(million USD)",
+                    }
+                )
+            )
+
+            st.dataframe(
+                regional_table,
+                use_container_width=True,
+                hide_index=True,
+            )
 
             # ------------------------------------------------
             # ECONOMIC DATA TABLE
