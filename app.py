@@ -884,6 +884,130 @@ else:
                 f"{selected_region}: {selected_price_scenario} "
                 f"commodity-price pathway"
             )
+            
+                        # ------------------------------------------------
+            # COMMODITY-PRICE SCENARIO COMPARISON
+            # ------------------------------------------------
+
+            st.subheader(
+                "Commodity-Price Scenario Comparison"
+            )
+
+            scenario_comparison_df = (
+                region_valuation_df.groupby(
+                    "price_scenario",
+                    as_index=False,
+                )[
+                    [
+                        "quality_adjusted_gross_value_real_2026_usd",
+                        selected_pv_column,
+                    ]
+                ]
+                .sum()
+            )
+
+            scenario_comparison_df[
+                "quality_adjusted_value_billion_usd"
+            ] = (
+                scenario_comparison_df[
+                    "quality_adjusted_gross_value_real_2026_usd"
+                ]
+                / 1_000_000_000
+            )
+
+            scenario_comparison_df[
+                "present_value_billion_usd"
+            ] = (
+                scenario_comparison_df[
+                    selected_pv_column
+                ]
+                / 1_000_000_000
+            )
+
+            scenario_order = [
+                scenario
+                for scenario in [
+                    "Downside",
+                    "Reference",
+                    "Upside",
+                ]
+                if scenario
+                in scenario_comparison_df[
+                    "price_scenario"
+                ].astype(str).unique()
+            ]
+
+            scenario_comparison_df[
+                "price_scenario"
+            ] = pd.Categorical(
+                scenario_comparison_df[
+                    "price_scenario"
+                ],
+                categories=scenario_order,
+                ordered=True,
+            )
+
+            scenario_comparison_df = (
+                scenario_comparison_df.sort_values(
+                    "price_scenario"
+                )
+            )
+
+            scenario_chart_df = (
+                scenario_comparison_df[
+                    [
+                        "price_scenario",
+                        "present_value_billion_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "price_scenario":
+                        "Commodity-price scenario",
+                        "present_value_billion_usd":
+                        f"Present value at {selected_discount_rate}",
+                    }
+                )
+                .set_index(
+                    "Commodity-price scenario"
+                )
+            )
+
+            st.bar_chart(
+                scenario_chart_df
+            )
+
+            st.caption(
+                "Values represent full-period present value in "
+                "billion constant 2026 USD."
+            )
+
+            scenario_table = (
+                scenario_comparison_df[
+                    [
+                        "price_scenario",
+                        "quality_adjusted_value_billion_usd",
+                        "present_value_billion_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "price_scenario":
+                        "Commodity-price scenario",
+                        "quality_adjusted_value_billion_usd":
+                        "Quality-adjusted value (billion USD)",
+                        "present_value_billion_usd":
+                        f"Present value at {selected_discount_rate} "
+                        "(billion USD)",
+                    }
+                )
+            )
+
+            st.dataframe(
+                scenario_table,
+                use_container_width=True,
+                hide_index=True,
+            )
 
             # ------------------------------------------------
             # ANNUAL VALUE CHARTS
