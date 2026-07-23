@@ -21,12 +21,12 @@ Annual value = annual material tonnes x commodity price x (1 - quality discount)
 The discounts are transparent study assumptions. They are not universal values
 reported by a single publication.
 
-- Aluminium: base price=2,338.00 USD/t; discount=10.0%; basis=Provisional study assumption for recovered secondary material.
-- Copper: base price=14,286.00 USD/t; discount=8.0%; basis=Provisional study assumption for recovered secondary material.
-- Silver: base price=1,946,085.00 USD/t; discount=5.0%; basis=Provisional study assumption for recovered secondary material.
-- Silicon: base price=1,210.00 USD/t; discount=25.0%; basis=Provisional study assumption reflecting purification requirements.
-- Glass: base price=45.00 USD/t; discount=30.0%; basis=Provisional study assumption reflecting contamination and downcycling.
-- Polymers: base price=1,600.00 USD/t; discount=40.0%; basis=Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.
+- Aluminium: base price=3,105.25 USD/t; discount=10.0%; basis=Provisional study assumption for recovered secondary material.
+- Copper: base price=13,340.75 USD/t; discount=8.0%; basis=Provisional study assumption for recovered secondary material.
+- Silver: base price=1,826,226.71 USD/t; discount=5.0%; basis=Provisional study assumption for recovered secondary material.
+- Silicon: base price=2,866.01 USD/t; discount=25.0%; basis=Provisional study assumption reflecting purification requirements.
+- Glass: base price=618.69 USD/t; discount=30.0%; basis=Provisional study assumption reflecting contamination and downcycling.
+- Polymers: base price=1,266.01 USD/t; discount=40.0%; basis=Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.
 
 4. PRICE PATHWAYS
 Downside, Reference, and Upside pathways use a two-phase compound real-growth

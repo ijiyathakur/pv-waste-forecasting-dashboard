@@ -17,10 +17,10 @@
   },
 
   "materials": {
-    "Aluminium": {
-      "csv_material": "Aluminium",
-      "base_price_usd_t": 2338,
-      "quality_discount": 0.10,
+  "Aluminium": {
+    "csv_material": "Aluminium",
+    "base_price_usd_t": 3105.25,
+    "quality_discount": 0.10,
       "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
       "growth_rates": {
         "Downside": {
@@ -40,7 +40,7 @@
 
     "Copper": {
       "csv_material": "Copper",
-      "base_price_usd_t": 14286,
+      "base_price_usd_t": 13340.75,
       "quality_discount": 0.08,
       "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
       "growth_rates": {
@@ -61,7 +61,7 @@
 
     "Silver": {
       "csv_material": "Silver",
-      "base_price_usd_t": 1946085,
+      "base_price_usd_t": 1826226.71,
       "quality_discount": 0.05,
       "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
       "growth_rates": {
@@ -82,7 +82,7 @@
 
     "Silicon": {
       "csv_material": "Silicon",
-      "base_price_usd_t": 1210,
+      "base_price_usd_t": 2866.01,
       "quality_discount": 0.25,
       "quality_discount_basis": "Provisional study assumption reflecting purification requirements.",
       "growth_rates": {
@@ -103,7 +103,7 @@
 
     "Glass": {
       "csv_material": "Glass",
-      "base_price_usd_t": 45,
+      "base_price_usd_t": 618.69,
       "quality_discount": 0.30,
       "quality_discount_basis": "Provisional study assumption reflecting contamination and downcycling.",
       "growth_rates": {
@@ -124,7 +124,7 @@
 
     "Polymers": {
       "csv_material": "Polymers",
-      "base_price_usd_t": 1600,
+      "base_price_usd_t": 1266.01,
       "quality_discount": 0.40,
       "quality_discount_basis": "Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.",
       "growth_rates": {

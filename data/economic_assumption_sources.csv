@@ -1,10 +1,10 @@
 material,parameter,scenario_or_period,value,unit,source_title,source_organization,publication_year,doi_or_url,page_or_table,access_date,status,notes
-Glass,base_price,2026,,USD/t,,,,,,,Pending,
+Glass,base_price,2026,618.69,USD/t,"India import transaction for AR-coated tempered patterned solar glass",Volza,2025,https://www.volza.com/p/tempered-ar-coated-glass/import/import-in-india/,"21 May 2025 shipment: 606 metric tonnes valued at USD 374925; calculated unit value 618.69 USD/t",2026-07-23,Proxy,"Recent India import-unit-value proxy for new solar-grade glass. A separate end-of-life quality discount must be applied. Replace with an official 2026 annual benchmark if available."
 Glass,quality_discount,Central,,percent,,,,,,,Pending,
 Glass,price_growth,Downside 2027-2035,,percent/year,,,,,,,Pending,
 Glass,price_growth,Reference 2027-2035,,percent/year,,,,,,,Pending,
 Glass,price_growth,Upside 2027-2035,,percent/year,,,,,,,Pending,
-Aluminium,base_price,2026,,USD/t,,,,,,,Pending,
+Aluminium,base_price,2026,3105.25,USD/t,LME Official Prices,London Metal Exchange,2026,https://www.lme.com/market-data/reports-and-data/lme-official-prices,"Official cash bid and ask prices, 20 July 2026",2026-07-23,Verified,"Midpoint of the LME official cash bid and ask; primary-metal benchmark before applying the end-of-life quality discount."
 Aluminium,quality_discount,Central,,percent,,,,,,,Pending,
 Aluminium,price_growth,Downside 2027-2035,,percent/year,,,,,,,Pending,
 Aluminium,price_growth,Reference 2027-2035,,percent/year,,,,,,,Pending,
@@ -14,7 +14,7 @@ Silicon,quality_discount,Central,,percent,,,,,,,Pending,
 Silicon,price_growth,Downside 2027-2035,,percent/year,,,,,,,Pending,
 Silicon,price_growth,Reference 2027-2035,,percent/year,,,,,,,Pending,
 Silicon,price_growth,Upside 2027-2035,,percent/year,,,,,,,Pending,
-Copper,base_price,2026,,USD/t,,,,,,,Pending,
+Copper,base_price,2026,13340.75,USD/t,LME Official Prices,London Metal Exchange,2026,https://www.lme.com/market-data/reports-and-data/lme-official-prices,"Official cash bid and ask prices, 20 July 2026",2026-07-23,Verified,"Midpoint of the LME official cash bid and ask; primary-metal benchmark before applying the end-of-life quality discount."
 Copper,quality_discount,Central,,percent,,,,,,,Pending,
 Copper,price_growth,Downside 2027-2035,,percent/year,,,,,,,Pending,
 Copper,price_growth,Reference 2027-2035,,percent/year,,,,,,,Pending,
