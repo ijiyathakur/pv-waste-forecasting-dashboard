@@ -1511,6 +1511,25 @@ else:
                 use_container_width=True,
                 hide_index=True,
             )
+            
+            regional_comparison_csv = (
+                regional_table.to_csv(
+                    index=False
+                ).encode("utf-8")
+            )
+
+            st.download_button(
+                label="Download regional economic comparison CSV",
+                data=regional_comparison_csv,
+                file_name=(
+                    f"{selected_economic_year}_"
+                    f"{selected_capacity_scenario}_"
+                    f"{selected_lifetime_scenario}_"
+                    f"{selected_price_scenario}_"
+                    f"regional_economic_comparison.csv"
+                ),
+                mime="text/csv",
+            )
 
             # ------------------------------------------------
             # ECONOMIC DATA TABLE
