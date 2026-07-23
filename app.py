@@ -1275,6 +1275,112 @@ else:
             st.caption(
                 "Material values are shown in million constant 2026 USD."
             )
+            
+            # ------------------------------------------------
+            # SELECTED-YEAR ECONOMIC COMPARISON
+            # ------------------------------------------------
+
+            st.subheader(
+                "Selected Assessment-Year Comparison"
+            )
+
+            assessment_years = [
+                year
+                for year in [2045, 2060, 2075]
+                if year in available_economic_years
+            ]
+
+            selected_year_comparison_df = (
+                selected_valuation_df[
+                    selected_valuation_df["year"].isin(
+                        assessment_years
+                    )
+                ]
+                .groupby(
+                    "year",
+                    as_index=False,
+                )[
+                    [
+                        "quality_adjusted_gross_value_real_2026_usd",
+                        selected_pv_column,
+                    ]
+                ]
+                .sum()
+                .sort_values("year")
+            )
+
+            selected_year_comparison_df[
+                "quality_adjusted_value_billion_usd"
+            ] = (
+                selected_year_comparison_df[
+                    "quality_adjusted_gross_value_real_2026_usd"
+                ]
+                / 1_000_000_000
+            )
+
+            selected_year_comparison_df[
+                "present_value_billion_usd"
+            ] = (
+                selected_year_comparison_df[
+                    selected_pv_column
+                ]
+                / 1_000_000_000
+            )
+
+            selected_year_chart = (
+                selected_year_comparison_df[
+                    [
+                        "year",
+                        "quality_adjusted_value_billion_usd",
+                        "present_value_billion_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "quality_adjusted_value_billion_usd":
+                        "Quality-adjusted annual value",
+                        "present_value_billion_usd":
+                        f"Present value at {selected_discount_rate}",
+                    }
+                )
+                .set_index("year")
+            )
+
+            st.bar_chart(
+                selected_year_chart
+            )
+
+            st.caption(
+                "These results show annual values in 2045, 2060 and "
+                "2075. They are individual-year snapshots and must not "
+                "be interpreted as cumulative revenue."
+            )
+
+            selected_year_table = (
+                selected_year_comparison_df[
+                    [
+                        "year",
+                        "quality_adjusted_value_billion_usd",
+                        "present_value_billion_usd",
+                    ]
+                ]
+                .rename(
+                    columns={
+                        "year": "Assessment year",
+                        "quality_adjusted_value_billion_usd":
+                        "Quality-adjusted annual value (billion USD)",
+                        "present_value_billion_usd":
+                        f"Present value at {selected_discount_rate} "
+                        "(billion USD)",
+                    }
+                )
+            )
+
+            st.dataframe(
+                selected_year_table,
+                use_container_width=True,
+                hide_index=True,
+            )
 
             # ------------------------------------------------
             # ECONOMIC DATA TABLE
