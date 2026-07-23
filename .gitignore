@@ -30,3 +30,5 @@ Thumbs.db
 
 # Generated economic-model logs
 outputs/pv_eol_economic_outputs/logs/*.log
+# Generated economic-model manifest
+outputs/pv_eol_economic_outputs/OUTPUT_MANIFEST.csv
