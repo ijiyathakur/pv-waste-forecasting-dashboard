@@ -21,7 +21,7 @@ Annual value = annual material tonnes x commodity price x (1 - quality discount)
 The discounts are transparent study assumptions. They are not universal values
 reported by a single publication.
 
-- Aluminium: base price=3,105.25 USD/t; discount=10.0%; basis=Provisional study assumption for recovered secondary material.
+- Aluminium: base price=3,105.25 USD/t; discount=20.0%; basis=Literature-supported 20 percent price discount for secondary aluminium relative to the primary-metal benchmark.
 - Copper: base price=13,340.75 USD/t; discount=8.0%; basis=Provisional study assumption for recovered secondary material.
 - Silver: base price=1,826,226.71 USD/t; discount=5.0%; basis=Provisional study assumption for recovered secondary material.
 - Silicon: base price=2,866.01 USD/t; discount=25.0%; basis=Provisional study assumption reflecting purification requirements.
