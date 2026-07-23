@@ -1014,6 +1014,25 @@ else:
                 use_container_width=True,
                 hide_index=True,
             )
+            
+            scenario_comparison_csv = (
+                scenario_table.to_csv(
+                    index=False
+                ).encode("utf-8")
+            )
+
+            st.download_button(
+                label="Download commodity-price scenario comparison CSV",
+                data=scenario_comparison_csv,
+                file_name=(
+                    f"{selected_region}_"
+                    f"{selected_capacity_scenario}_"
+                    f"{selected_lifetime_scenario}_"
+                    f"{selected_discount_rate}_"
+                    f"commodity_price_scenario_comparison.csv"
+                ),
+                mime="text/csv",
+            )
 
             # ------------------------------------------------
             # ANNUAL VALUE CHARTS
