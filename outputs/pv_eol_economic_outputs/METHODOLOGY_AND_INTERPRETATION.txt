@@ -1,0 +1,65 @@
+PV EOL ECONOMIC VALUATION - METHODOLOGY AND INTERPRETATION
+===================================================================
+
+Input CSV: C:\Users\thaku\trendy\Data-Prediction-Model\pv__waste_application\outputs\pv_material_waste_outputs\tables\pv_material_waste_all_years_long.csv
+Configuration: C:\Users\thaku\trendy\Data-Prediction-Model\pv__waste_application\data\pv_eol_config.json
+Valuation period: 2026 to 2075
+Selected assessment years: [2045, 2060, 2075]
+Currency basis: constant 2026 USD
+
+1. VALUE DEFINITION
+The model estimates quality-adjusted gross material-value potential contained in
+end-of-life crystalline-silicon PV waste. It does not estimate recycling profit,
+net revenue, or net cash flow.
+
+2. EXCLUDED ITEMS
+No deduction is made for physical recovery losses, collection, transport, dismantling,
+processing, refining, energy, labour, CAPEX, OPEX, taxes, or transaction costs.
+
+3. QUALITY ADJUSTMENT
+Annual value = annual material tonnes x commodity price x (1 - quality discount).
+The discounts are transparent study assumptions. They are not universal values
+reported by a single publication.
+
+- Aluminium: base price=2,338.00 USD/t; discount=10.0%; basis=Provisional study assumption for recovered secondary material.
+- Copper: base price=14,286.00 USD/t; discount=8.0%; basis=Provisional study assumption for recovered secondary material.
+- Silver: base price=1,946,085.00 USD/t; discount=5.0%; basis=Provisional study assumption for recovered secondary material.
+- Silicon: base price=1,210.00 USD/t; discount=25.0%; basis=Provisional study assumption reflecting purification requirements.
+- Glass: base price=45.00 USD/t; discount=30.0%; basis=Provisional study assumption reflecting contamination and downcycling.
+- Polymers: base price=1,600.00 USD/t; discount=40.0%; basis=Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.
+
+4. PRICE PATHWAYS
+Downside, Reference, and Upside pathways use a two-phase compound real-growth
+model: 2027-2035 and 2036-2075. These pathways are scenario assumptions, not
+point forecasts.
+
+5. PRESENT VALUE
+PV_t = future material value_t / (1 + real discount rate)^(t - 2026).
+Real discount rates: [0.03, 0.05, 0.07]; central rate: 5.0%.
+Because commodity prices are in constant 2026 USD, real discount rates are used.
+
+6. CUMULATIVE VERSUS SNAPSHOT RESULTS
+Full-period cumulative PV sums all annual flows from 2026 through 2075.
+The selected-year snapshot sum includes only 2045, 2060, and 2075 and must not
+be described as cumulative 2026-2075 revenue.
+
+7. SENSITIVITY ANALYSIS
+The OAT sensitivity changes one input at a time around the central case:
+real discount rate (3%/7%), commodity prices (+/-10%), material quantities
+(+/-10%), and all quality discounts (+/-10 percentage points, bounded 0-100%).
+A separate table changes each material quality discount individually.
+
+8. CORE REFERENCES USED TO FRAME THE MODEL
+- User-supplied economic methodology section (two-phase price pathways, real PV,
+  scenario/sensitivity structure, and interpretation as gross material value).
+- Deng, R., Chang, N. L., Ouyang, Z., & Chong, C. M. (2019). A techno-economic
+  review of silicon photovoltaic module recycling. Renewable and Sustainable
+  Energy Reviews, 109, 532-550. DOI: 10.1016/j.rser.2019.04.020.
+- Heath, G. A. et al. (2020). Research and development priorities for silicon
+  photovoltaic module recycling to support a circular economy. Nature Energy,
+  5, 502-510. DOI: 10.1038/s41560-020-0645-2.
+- Komoto, K. et al. (2025). Status of PV Module Recycling in IEA PVPS Task 12
+  Countries. IEA-PVPS T12-31:2025. DOI: 10.69766/XLFG7020.
+- Tammaro, M. et al. (2020). Development and techno-economic analysis of an
+  advanced recycling process for photovoltaic panels enabling polymer separation
+  and recovery of Ag and Si. Energies, 13, 6690. DOI: 10.3390/en13246690.

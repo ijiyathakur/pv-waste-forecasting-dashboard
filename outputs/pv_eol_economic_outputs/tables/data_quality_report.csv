@@ -1,0 +1,16 @@
+check,value,unit
+input_rows,63180.0,rows
+clean_rows,63180.0,rows
+duplicate_rows_detected,0.0,rows
+minimum_year,2014.0,year
+maximum_year,2130.0,year
+regions,6.0,count
+capacity_scenarios,3.0,count
+lifetime_scenarios,3.0,count
+materials,10.0,count
+negative_annual_rows,0.0,rows
+negative_cumulative_rows,0.0,rows
+max_cumulative_absolute_error_t,7.450580596923828e-08,tonnes
+mean_cumulative_absolute_error_t,2.56015954215915e-10,tonnes
+minimum_normalized_weight_sum_percent,100.0,percent
+maximum_normalized_weight_sum_percent,100.0,percent

@@ -1,0 +1,152 @@
+{
+  "analysis": {
+    "base_year": 2026,
+    "end_year": 2075,
+    "selected_years": [2045, 2060, 2075],
+    "real_discount_rates": [0.03, 0.05, 0.07],
+    "central_discount_rate": 0.05,
+
+    "central_region": "India",
+    "central_capacity_scenario": "Medium",
+    "central_lifetime_scenario": "Regular_Loss",
+    "central_price_scenario": "Reference",
+
+    "plot_region": "India",
+    "plot_capacity_scenario": "Medium",
+    "plot_lifetime_scenario": "Regular_Loss"
+  },
+
+  "materials": {
+    "Aluminium": {
+      "csv_material": "Aluminium",
+      "base_price_usd_t": 2338,
+      "quality_discount": 0.10,
+      "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": 0.00,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.02,
+          "2036_2075": 0.01
+        },
+        "Upside": {
+          "2027_2035": 0.04,
+          "2036_2075": 0.02
+        }
+      }
+    },
+
+    "Copper": {
+      "csv_material": "Copper",
+      "base_price_usd_t": 14286,
+      "quality_discount": 0.08,
+      "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": 0.00,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.025,
+          "2036_2075": 0.015
+        },
+        "Upside": {
+          "2027_2035": 0.05,
+          "2036_2075": 0.025
+        }
+      }
+    },
+
+    "Silver": {
+      "csv_material": "Silver",
+      "base_price_usd_t": 1946085,
+      "quality_discount": 0.05,
+      "quality_discount_basis": "Provisional study assumption for recovered secondary material.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": 0.00,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.03,
+          "2036_2075": 0.015
+        },
+        "Upside": {
+          "2027_2035": 0.06,
+          "2036_2075": 0.03
+        }
+      }
+    },
+
+    "Silicon": {
+      "csv_material": "Silicon",
+      "base_price_usd_t": 1210,
+      "quality_discount": 0.25,
+      "quality_discount_basis": "Provisional study assumption reflecting purification requirements.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": -0.01,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.015,
+          "2036_2075": 0.01
+        },
+        "Upside": {
+          "2027_2035": 0.04,
+          "2036_2075": 0.02
+        }
+      }
+    },
+
+    "Glass": {
+      "csv_material": "Glass",
+      "base_price_usd_t": 45,
+      "quality_discount": 0.30,
+      "quality_discount_basis": "Provisional study assumption reflecting contamination and downcycling.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": 0.00,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.01,
+          "2036_2075": 0.005
+        },
+        "Upside": {
+          "2027_2035": 0.025,
+          "2036_2075": 0.015
+        }
+      }
+    },
+
+    "Polymers": {
+      "csv_material": "Polymers",
+      "base_price_usd_t": 1600,
+      "quality_discount": 0.40,
+      "quality_discount_basis": "Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.",
+      "growth_rates": {
+        "Downside": {
+          "2027_2035": -0.01,
+          "2036_2075": 0.00
+        },
+        "Reference": {
+          "2027_2035": 0.01,
+          "2036_2075": 0.005
+        },
+        "Upside": {
+          "2027_2035": 0.03,
+          "2036_2075": 0.015
+        }
+      }
+    }
+  },
+
+  "sensitivity": {
+    "commodity_price_change": 0.10,
+    "material_quantity_change": 0.10,
+    "quality_discount_change_percentage_points": 0.10
+  }
+}

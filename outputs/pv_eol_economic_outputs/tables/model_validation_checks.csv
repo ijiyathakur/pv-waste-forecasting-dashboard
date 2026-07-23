@@ -1,0 +1,10 @@
+check,passed,observed,expected,note
+price_pathway_row_count,True,900,900,
+base_year_prices_equal_config,True,0.0,< 1e-9 USD/t absolute error,
+valuation_row_count,True,48600,48600,
+no_negative_quality_adjusted_values,True,0,0,
+quality_adjusted_value_not_above_gross_value,True,0,0,
+present_value_nonincreasing_with_discount_rate,True,0,0,
+twenty_seven_scenario_combinations_per_region,True,"min=27, max=27",27 per region,
+selected_years_available,True,[],[],
+full_period_summary_row_count,True,162,162,
