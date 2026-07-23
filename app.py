@@ -53,6 +53,10 @@ SENSITIVITY_FILE = (
     ECONOMIC_TABLES_DIR
     / "sensitivity_global_one_at_a_time.csv"
 )
+MATERIAL_SENSITIVITY_FILE = (
+    ECONOMIC_TABLES_DIR
+    / "sensitivity_quality_discount_by_material.csv"
+)
 ASSUMPTIONS_FILE = (
     ECONOMIC_TABLES_DIR
     / "model_assumptions.csv"
@@ -99,6 +103,7 @@ required_files = {
     "Economic sensitivity analysis": SENSITIVITY_FILE,
     "Economic model assumptions": ASSUMPTIONS_FILE,
     "Economic model validation": VALIDATION_FILE,
+    "Material quality-discount sensitivity": MATERIAL_SENSITIVITY_FILE,
 }
 
 missing_files = []
@@ -127,6 +132,7 @@ material_df = pd.read_csv(MATERIAL_FILE)
 valuation_df = pd.read_csv(VALUATION_FILE)
 price_pathways_df = pd.read_csv(PRICE_PATHWAYS_FILE)
 sensitivity_df = pd.read_csv(SENSITIVITY_FILE)
+material_sensitivity_df = pd.read_csv(MATERIAL_SENSITIVITY_FILE)
 assumptions_df = pd.read_csv(ASSUMPTIONS_FILE)
 validation_df = pd.read_csv(VALIDATION_FILE)
 
@@ -1343,6 +1349,130 @@ else:
             )
             
                         # ------------------------------------------------
+            # MATERIAL-WISE QUALITY-DISCOUNT SENSITIVITY
+            # ------------------------------------------------
+
+            st.subheader(
+                "Material-Wise Quality-Discount Sensitivity"
+            )
+
+            st.caption(
+                "This chart shows how changing the quality discount "
+                "for one material at a time affects the economic "
+                "present value of the central case."
+            )
+
+            material_sensitivity_plot_df = material_sensitivity_df[
+                [
+                    "material",
+                    "case",
+                    sensitivity_value_column,
+                ]
+            ].copy()
+
+            material_sensitivity_plot_df[
+                sensitivity_value_column
+            ] = pd.to_numeric(
+                material_sensitivity_plot_df[
+                    sensitivity_value_column
+                ],
+                errors="coerce",
+            )
+
+            material_sensitivity_plot_df = (
+                material_sensitivity_plot_df.dropna(
+                    subset=[sensitivity_value_column]
+                )
+            )
+
+            material_sensitivity_chart_df = (
+                material_sensitivity_plot_df.pivot_table(
+                    index="material",
+                    columns="case",
+                    values=sensitivity_value_column,
+                    aggfunc="first",
+                )
+            )
+
+            ordered_material_cases = [
+                case
+                for case in [
+                    "Adverse",
+                    "Favourable",
+                ]
+                if case
+                in material_sensitivity_chart_df.columns
+            ]
+
+            material_sensitivity_chart_df = (
+                material_sensitivity_chart_df[
+                    ordered_material_cases
+                ]
+            )
+
+            material_sensitivity_chart_df[
+                "_maximum_absolute_change"
+            ] = (
+                material_sensitivity_chart_df.abs()
+                .max(axis=1)
+            )
+
+            material_sensitivity_chart_df = (
+                material_sensitivity_chart_df.sort_values(
+                    "_maximum_absolute_change",
+                    ascending=False,
+                )
+                .drop(
+                    columns="_maximum_absolute_change"
+                )
+            )
+
+            st.bar_chart(
+                material_sensitivity_chart_df
+            )
+
+            st.caption(
+                "Positive values indicate an increase in present value. "
+                "Negative values indicate a decrease relative to the "
+                "central economic case."
+            )
+
+            material_sensitivity_table = (
+                material_sensitivity_plot_df.rename(
+                    columns={
+                        "material": "Material",
+                        "case": "Case",
+                        sensitivity_value_column:
+                        "Change from central case (%)",
+                    }
+                )
+            )
+
+            st.dataframe(
+                material_sensitivity_table,
+                use_container_width=True,
+                hide_index=True,
+            )
+
+            material_sensitivity_csv = (
+                material_sensitivity_table.to_csv(
+                    index=False
+                ).encode("utf-8")
+            )
+
+            st.download_button(
+                label=(
+                    "Download material quality-discount "
+                    "sensitivity CSV"
+                ),
+                data=material_sensitivity_csv,
+                file_name=(
+                    "material_quality_discount_sensitivity.csv"
+                ),
+                mime="text/csv",
+            )
+            
+            # ------------------------------------------------
             # MODEL ASSUMPTIONS AND VALIDATION
             # ------------------------------------------------
 
