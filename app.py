@@ -1381,6 +1381,24 @@ else:
                 use_container_width=True,
                 hide_index=True,
             )
+            selected_year_csv = (
+                selected_year_table.to_csv(
+                    index=False
+                ).encode("utf-8")
+            )
+
+            st.download_button(
+                label="Download assessment-year comparison CSV",
+                data=selected_year_csv,
+                file_name=(
+                    f"{selected_region}_"
+                    f"{selected_capacity_scenario}_"
+                    f"{selected_lifetime_scenario}_"
+                    f"{selected_price_scenario}_"
+                    f"assessment_year_comparison.csv"
+                ),
+                mime="text/csv",
+            )
             
             # ------------------------------------------------
             # REGION-WISE ECONOMIC COMPARISON
