@@ -27,3 +27,6 @@ Thumbs.db
 
 # Generated Python cache
 *.pyo
+
+# Generated economic-model logs
+outputs/pv_eol_economic_outputs/logs/*.log
