@@ -1,7 +1,7 @@
 material,csv_material,base_price_usd_t,quality_discount,quality_factor,quality_adjusted_base_price_usd_t,quality_discount_basis,downside_growth_2027_2035,downside_growth_2036_2075,reference_growth_2027_2035,reference_growth_2036_2075,upside_growth_2027_2035,upside_growth_2036_2075
-Aluminium,Aluminium,3105.25,0.2,0.8,2484.2000000000003,Literature-supported 20 percent price discount for secondary aluminium relative to the primary-metal benchmark.,0.0,0.0,0.02,0.0,0.04,0.0
-Copper,Copper,13340.75,0.08,0.92,12273.49,Provisional study assumption for recovered secondary material.,0.0,0.0,0.025,0.0,0.05,0.0
-Silver,Silver,1826226.71,0.05,0.95,1734915.3745,Provisional study assumption for recovered secondary material.,0.0,0.0,0.03,0.0,0.06,0.0
-Silicon,Silicon,2866.01,0.25,0.75,2149.5075,Provisional study assumption reflecting purification requirements.,-0.01,0.0,0.015,0.0,0.04,0.0
-Glass,Glass,618.69,0.3,0.7,433.083,Provisional study assumption reflecting contamination and downcycling.,0.0,0.0,0.01,0.0,0.025,0.0
-Polymers,Polymers,1266.01,0.4,0.6,759.606,Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.,-0.01,0.0,0.01,0.0,0.03,0.0
+Aluminium,Aluminium,3105.25,0.2,0.8,2484.2000000000003,Literature-supported 20 percent price discount for secondary aluminium relative to the primary-metal benchmark.,-0.02,0.0,0.0,0.0,0.02,0.0
+Copper,Copper,13340.75,0.08,0.92,12273.49,Provisional study assumption for recovered secondary material.,-0.02,0.0,0.0,0.0,0.02,0.0
+Silver,Silver,1826226.71,0.05,0.95,1734915.3745,Provisional study assumption for recovered secondary material.,-0.03,0.0,0.0,0.0,0.03,0.0
+Silicon,Silicon,2866.01,0.25,0.75,2149.5075,Provisional study assumption reflecting purification requirements.,-0.02,0.0,0.0,0.0,0.02,0.0
+Glass,Glass,618.69,0.3,0.7,433.083,Provisional study assumption reflecting contamination and downcycling.,-0.01,0.0,0.0,0.0,0.01,0.0
+Polymers,Polymers,1266.01,0.4,0.6,759.606,Provisional study assumption reflecting mixed-polymer degradation and separation difficulty.,-0.02,0.0,0.0,0.0,0.02,0.0
