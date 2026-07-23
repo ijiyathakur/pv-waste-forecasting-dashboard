@@ -1573,3 +1573,52 @@ else:
                     file_name="economic_model_validation.csv",
                     mime="text/csv",
                 )
+                
+                            # ------------------------------------------------
+            # ECONOMIC METHODOLOGY AND LIMITATIONS
+            # ------------------------------------------------
+
+            with st.expander(
+                "Economic methodology, interpretation and limitations"
+            ):
+                st.markdown(
+                    """
+### Economic methodology
+
+The economic valuation is calculated by multiplying the projected
+annual quantity of each end-of-life PV material by its corresponding
+quality-adjusted commodity price.
+
+The model evaluates three commodity-price pathways:
+
+- **Downside**
+- **Reference**
+- **Upside**
+
+Future monetary values are expressed in constant 2026 USD. Present
+values are calculated using real discount rates of 3%, 5% and 7%.
+
+### Interpretation
+
+The reported value represents the potential gross value of materials
+contained in projected end-of-life PV waste.
+
+It should not be interpreted as recycling revenue, recycling profit or
+net economic benefit.
+
+### Excluded costs and losses
+
+The current valuation does not deduct:
+
+- material recovery losses;
+- collection and transportation costs;
+- dismantling and sorting costs;
+- processing and refining costs;
+- capital expenditure;
+- operating expenditure;
+- taxes and transaction costs.
+
+Therefore, the results represent an upper-level material-value
+potential rather than the profitability of a recycling facility.
+                    """
+                )
