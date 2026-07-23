@@ -66,6 +66,10 @@ VALIDATION_FILE = (
     ECONOMIC_TABLES_DIR
     / "model_validation_checks.csv"
 )
+DATA_QUALITY_FILE = (
+    ECONOMIC_TABLES_DIR
+    / "data_quality_report.csv"
+)
 
 # ============================================================
 # PAGE SETTINGS
@@ -103,6 +107,7 @@ required_files = {
     "Economic sensitivity analysis": SENSITIVITY_FILE,
     "Economic model assumptions": ASSUMPTIONS_FILE,
     "Economic model validation": VALIDATION_FILE,
+    "Economic input data-quality report": DATA_QUALITY_FILE,
     "Material quality-discount sensitivity": MATERIAL_SENSITIVITY_FILE,
 }
 
@@ -135,6 +140,7 @@ sensitivity_df = pd.read_csv(SENSITIVITY_FILE)
 material_sensitivity_df = pd.read_csv(MATERIAL_SENSITIVITY_FILE)
 assumptions_df = pd.read_csv(ASSUMPTIONS_FILE)
 validation_df = pd.read_csv(VALIDATION_FILE)
+data_quality_df = pd.read_csv(DATA_QUALITY_FILE)
 
 st.info("All model output files loaded successfully.")
 
@@ -1699,6 +1705,38 @@ else:
                 )
                 
                             # ------------------------------------------------
+            # INPUT DATA-QUALITY REPORT
+            # ------------------------------------------------
+
+            with st.expander(
+                "View economic input data-quality report"
+            ):
+                if data_quality_df.empty:
+                    st.warning(
+                        "The economic input data-quality report is empty."
+                    )
+
+                else:
+                    st.dataframe(
+                        data_quality_df,
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+
+                    data_quality_csv = (
+                        data_quality_df.to_csv(
+                            index=False
+                        ).encode("utf-8")
+                    )
+
+                    st.download_button(
+                        label="Download data-quality report CSV",
+                        data=data_quality_csv,
+                        file_name="economic_data_quality_report.csv",
+                        mime="text/csv",
+                    )
+                
+            # ------------------------------------------------
             # ECONOMIC METHODOLOGY AND LIMITATIONS
             # ------------------------------------------------
 
